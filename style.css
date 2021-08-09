@@ -1,0 +1,95 @@
+:root{
+    --main-bg-color: #687FA8;
+    --main-accent-color: #A88F57;
+    --main-mid-color: #424C5C;
+    --calc-bg: #8a95a8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--main-bg-color);
+}
+
+section{
+    background-color: var(--calc-bg);
+    width: 25rem;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    padding: 1.25rem;
+}
+
+.jc {
+    width: 90%;
+    margin: 1.25rem auto;
+}
+
+.title {
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.display{
+    width: 100%;
+    height: 5rem;
+    background-color: var(--main-bg-color);
+    padding: 0.625rem;
+    color: white;
+    text-align: right;
+}
+
+.current {
+    font-size: 2rem;
+}
+
+.keyPad{
+    width: 23.75rem;
+}
+
+.button{
+    width: 5rem;
+    height: 5rem;
+    margin: 0.1875rem;
+    background-color: var(--main-accent-color);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    transition: ease-in-out;
+}
+
+.button:hover{
+    background-color: #b57f55;
+    cursor: pointer;
+}
+
+.button:active{
+    font-size: 2.5rem;
+}
+
+#equals {
+    width: 10.625rem;
+}
+
+.clear{
+    background-color: rgb(192, 85, 85);
+}
+
+.operator{
+    background-color: var(--main-mid-color);
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.25rem;
+}
